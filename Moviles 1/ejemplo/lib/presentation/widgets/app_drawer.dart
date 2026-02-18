@@ -12,7 +12,10 @@ class AppDrawer extends StatelessWidget {
         children: [
           UserAccountsDrawerHeader(
             decoration: BoxDecoration(color: Color(0xFF1877F2)),
-            accountName: Text('Usuario', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            accountName: Text(
+              'Usuario',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
             accountEmail: Text('usuario@email.com'),
             currentAccountPicture: CircleAvatar(
               backgroundColor: Colors.white,
