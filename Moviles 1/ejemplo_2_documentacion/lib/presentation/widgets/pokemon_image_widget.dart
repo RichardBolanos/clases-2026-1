@@ -22,14 +22,12 @@ class PokemonImageWidget extends StatelessWidget {
           final pokemon = snapshot.data!;
           debugPrint('Pokemon loaded: ${pokemon.name} (ID: ${pokemon.id})');
           String? imageUrl;
-          
+
           // Intentar obtener imagen en orden de prioridad
           imageUrl = pokemon.sprites.other?.officialArtwork.frontDefault;
           imageUrl ??= pokemon.sprites.other?.home.frontDefault;
           imageUrl ??= pokemon.sprites.frontDefault;
-          
-          debugPrint('Image URL: $imageUrl');
-          
+
           if (imageUrl != null && imageUrl.isNotEmpty) {
             return Image.network(imageUrl, height: 300);
           }

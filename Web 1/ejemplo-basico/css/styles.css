@@ -1,0 +1,49 @@
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.caja-verde {
+    background-color: green;
+}
+
+
+/* Estático (por defecto) */
+.estatico {
+    position: static;
+}
+
+/* Relativo - se mueve desde su posición original */
+.relativo {
+    position: relative;
+    top: -100px;
+    left: 20px;
+    z-index: 0;
+}
+
+/* Absoluto - se posiciona respecto al contenedor posicionado más cercano */
+.absoluto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+/* Fijo - se posiciona respecto al viewport */
+.fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Pegajoso - combina relative y fixed */
+.pegajoso {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}

@@ -35,7 +35,6 @@ class _HomePageState extends State<HomePage> {
 
   void _loadRandomPokemon() {
     final randomId = Random().nextInt(898) + 1; // Solo pokemones de gen 1-8
-    debugPrint('Loading random pokemon with ID: $randomId');
     setState(() {
       _pokemonFuture = widget.getPokemonUseCase(randomId.toString());
     });

@@ -6,22 +6,20 @@
 ## 📋 Tabla de Contenidos
 
 ### 🎯 **Fundamentos**
-1. [Introducción y Metodología](#introducción-y-metodología)
-2. [Configuración del Entorno](#configuración-del-entorno)
+1. [Introducción y Metodología](#-introducción-y-metodología)
+2. [Configuración del Entorno](#️-configuración-del-entorno)
 
 ### 🏗️ **Tecnologías Core**
-3. [HTML - Estructura Web](#html---estructura-web)
-4. [CSS - Diseño y Presentación](#css---diseño-y-presentación)
-5. [JavaScript - Interactividad](#javascript---interactividad)
+3. [HTML - Estructura Web](#️-html---estructura-web)
+4. [CSS - Diseño y Presentación](#-css---diseño-y-presentación)
+5. [JavaScript - Interactividad](#javascript---lenguaje-de-programación)
 
 ### 🛠️ **Herramientas Profesionales**
-6. [Bootstrap - Framework CSS](#bootstrap---framework-css)
-7. [Mejores Prácticas](#mejores-prácticas)
+6. [Bootstrap - Framework CSS](#️-bootstrap---framework-css)
 
 ### 💼 **Proyectos Aplicados**
-8. [Proyectos Básicos](#proyectos-básicos)
-9. [Proyectos de Uso Diario](#proyectos-de-uso-diario)
-10. [Evaluación y Siguiente Nivel](#evaluación-y-siguiente-nivel)
+7. [Proyectos Prácticos](#proyectos-prácticos)
+8. [Recursos Adicionales](#recursos-adicionales)
 
 ---
 
@@ -747,6 +745,9 @@ p { color: green !important; }
 ```
 
 #### Flexbox - Layout Unidimensional
+
+> **[Ver Ejemplo Completo: Navbar y Layout](ejemplos/flexbox-navbar/)**
+
 ```css
 /* Contenedor flex */
 .contenedor-flex {
